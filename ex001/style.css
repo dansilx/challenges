@@ -1,0 +1,27 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400, 500, 700;
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+
+}
+
+h1 {
+    color: var(--title-color)
+}
+
+p {
+    color: var(--form-color);
+}
+
+.btn{
+    color: var(--bg-button-color);
+}
